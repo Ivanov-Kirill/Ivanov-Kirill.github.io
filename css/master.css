@@ -1,0 +1,55 @@
+html{
+   height: 100%;
+   font-family: "Century Gothic", "Verdana", sans-serif;
+   font-size: 20px;
+}
+
+body{
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.reading{
+  align-self: auto;
+  flex-grow: 1;
+}
+
+nav{
+  align-self: auto;
+  flex-basis: 250px;
+}
+
+nav .item:hover{
+  cursor: pointer;
+  background-color: #eee;
+}
+
+nav .item{
+  margin: 10px;
+}
+
+nav .active{
+  background-color: #ddd;
+}
+
+
+
+
+.reading .transition :hover{
+  background-color: red;
+}
+
+.reading .transition{
+  background-color: #eee;
+}
+
+.reading pre{
+  margin: 10px;
+  font-family: "Courier", sans-serif;
+  font-size: 20px;
+}
